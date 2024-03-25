@@ -24,7 +24,13 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
+        hero: "url('./assets/gray.jpg')",
         services: "url('./assets/services.png')",
+        tail: "url('./assets/tail.jpg')",
+        bishop: "url('./assets/bishop.jpg')",
+        pastel: "url('./assets/pastel.jpg')",
+        blur: "url('./assets/blur.jpg')",
+        gradient: "url('./assets/gradient.jpg')",
       },
     },
   },

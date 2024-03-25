@@ -47,16 +47,22 @@ const Hero = () => {
                 repeat={Infinity}
               />
             </motion.div>
+            <h3 className="h3 mb-4">
+              I'm a Freelance junior Front-end Developer with over 1 year of
+              experience.
+            </h3>
             <motion.p
               variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 "
             >
               {" "}
               My love of coding drives me internally and I relish every
-              opportunity to tackle the deepest technical challenges.{" "}
+              opportunity to tackle the deepest technical challenges. I am
+              currently learning ReactJS and in the process I am improving my
+              knowledge of already learned languages-HTML, TailwindCSS.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
