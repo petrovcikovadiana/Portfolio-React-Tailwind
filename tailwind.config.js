@@ -2,10 +2,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Orbitron",
+      primary: "League Spartan, sans-serif",
       secondary: "Rajdhani",
       tertiary: "Aldrich",
     },
+
     container: {
       padding: {
         DEFAULT: "15px",
@@ -21,6 +22,10 @@ module.exports = {
       colors: {
         primary: "#0a0a0a",
         accent: "#B809C3",
+        card: "#2B3241",
+        background: "#252B39",
+        violetGradient: "#7B61F3",
+        pinkGradient: "#FBADB3",
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",

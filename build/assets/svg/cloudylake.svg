@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 98" width="440" height="98">
+	<title>Nový projekt</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 56px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<text id="CloudyLake.io" style="transform: matrix(1,0,0,1,16,71)" >
+		<tspan x="0" y="0" class="t0">C</tspan><tspan  y="0" class="t0">l</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">u</tspan><tspan  y="0" class="t0">d</tspan><tspan  y="0" class="t0">y</tspan><tspan  y="0" class="t0">L</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">k</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">.</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+</svg>

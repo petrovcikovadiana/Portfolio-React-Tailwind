@@ -1,18 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio-React-Tailwind/static/css/main.989fdbca.css",
-    "main.js": "/Portfolio-React-Tailwind/static/js/main.f1f4fdbd.js",
-    "static/media/barber.png": "/Portfolio-React-Tailwind/static/media/barber.607b840d900da6cbc92b.png",
-    "static/media/fitness.png": "/Portfolio-React-Tailwind/static/media/fitness.9e18db26187602316e70.png",
-    "static/media/site-bg.jpg": "/Portfolio-React-Tailwind/static/media/site-bg.54724d703024833ef9c6.jpg",
-    "static/media/netmate.png": "/Portfolio-React-Tailwind/static/media/netmate.4a7b893c5eeac5ee91fe.png",
-    "static/media/diana.png": "/Portfolio-React-Tailwind/static/media/diana.ef21988fbfe16e81b457.png",
-    "index.html": "/Portfolio-React-Tailwind/index.html",
-    "main.989fdbca.css.map": "/Portfolio-React-Tailwind/static/css/main.989fdbca.css.map",
-    "main.f1f4fdbd.js.map": "/Portfolio-React-Tailwind/static/js/main.f1f4fdbd.js.map"
+    "main.css": "/static/css/main.623499a1.css",
+    "main.js": "/static/js/main.c937753a.js",
+    "index.html": "/index.html",
+    "main.623499a1.css.map": "/static/css/main.623499a1.css.map",
+    "main.c937753a.js.map": "/static/js/main.c937753a.js.map"
   },
   "entrypoints": [
-    "static/css/main.989fdbca.css",
-    "static/js/main.f1f4fdbd.js"
+    "static/css/main.623499a1.css",
+    "static/js/main.c937753a.js"
   ]
 }

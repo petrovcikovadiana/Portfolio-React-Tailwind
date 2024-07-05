@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 // import fade
 import { fadeIn } from "../variants";
 // import image
-import Image from "../assets/diana.png";
+import diana from "../assets/diana.png";
 
 const About = () => {
   return (
-    <div className="" id="about">
+    <div id="about">
       <div className="container mx-auto pt-16 lg:pt-44 h-[600px]">
         <div
           className="flex flex-col gap-y-10 lg:flex-row  lg:gap-x-20 lg:gap-y-0 h-screen lg:max-w-6xl
@@ -23,7 +23,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className=" h-[600px] hidden lg:block"
           >
-            <img className="w-80 h-96" src={Image} alt="diana"></img>
+            <img className="w-80 h-96" src={diana} alt="diana"></img>
           </motion.div>
 
           <motion.div
