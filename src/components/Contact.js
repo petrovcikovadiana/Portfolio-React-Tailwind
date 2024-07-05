@@ -59,6 +59,7 @@ const Contact = () => {
               className="bg-transparent border-b py-3 w-full outline-none placeholder:text-gray-600 focus:border-violetGradient transition-all resize-none mb-12 "
               placeholder="Your message"
             ></textarea>
+            {/* button */}
             <div className="flex items-center justify-center">
               <a href="#contact">
                 <button class="btn btn-lg before:ease relative  overflow-hidden  bg-violetGradient text-white  before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700  hover:before:-translate-x-40">

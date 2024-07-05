@@ -12,7 +12,7 @@ const Aboutme = () => {
       {" "}
       <div className="md:container mx-auto text-center md:text-left items-center justify-center md:px-44 pt-16">
         <div className="flex flex-col lg:flex-row gap-24 mx-auto items-center justify-center max-w-screen">
-          {/* left container text */}
+          {/* left container images */}
           <motion.div
             variants={fadeIn("left", 0.1)}
             initial="show"
@@ -33,7 +33,7 @@ const Aboutme = () => {
               />
             </div>
           </motion.div>
-          {/*right container services */}
+          {/*right container about text */}
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -41,9 +41,11 @@ const Aboutme = () => {
             viewport={{ once: true, amount: 0.3 }}
             className=" lg:bg-diana lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0 "
           >
+            {/* title */}
             <h2 className="bg-gradient-to-r from-pinkGradient to-violetGradient inline-block text-transparent bg-clip-text text-xl uppercase">
               About me
             </h2>
+            {/* content */}
             <h3 className="h3 max-w-[455px] ">I am Diana,</h3>
             <h3 className="text-md max-w-[455px] mb-10">
               {" "}
@@ -58,6 +60,7 @@ const Aboutme = () => {
                 technologies.
               </h3>
             </h3>
+            {/* button */}
             <a href="#work">
               <button class="btn btn-lg before:ease relative  overflow-hidden  bg-violetGradient text-white  before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700  hover:before:-translate-x-40">
                 <span relative="relative z-10">View all projects</span>
