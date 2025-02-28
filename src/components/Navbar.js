@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+const navLinks = [
+  { id: "home", label: "Home" },
+  { id: "services", label: "About" },
+  { id: "skills", label: "Skills" },
+  { id: "work", label: "Work" },
+  { id: "contact", label: "Contact" },
+];
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,12 +19,14 @@ const Navbar = () => {
     setMobileMenuOpen(false);
   };
 
+  // zakazani scrollovani pri otevrenem menu
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
     }
+    //useEffect() se spustí pokaždé, když se změní hodnota mobileMenuOpen, Pokud bychom tam neměli [mobileMenuOpen], efekt by se spustil pouze jednou při načtení stránky
   }, [mobileMenuOpen]);
 
   return (
@@ -26,48 +35,18 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between md:justify-center items-center h-16">
           <div className="flex space-x-4">
-            {/* nav list desktop*/}
-            <ul className="hidden md:flex space-x-10 ">
-              <li>
-                <a
-                  href="#home"
-                  className="text-white hover:text-violetGradient"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#services"
-                  className="text-white hover:text-violetGradient"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#skills"
-                  className="text-white hover:text-violetGradient"
-                >
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#work"
-                  className="text-white hover:text-violetGradient"
-                >
-                  Work
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="text-white hover:text-violetGradient"
-                >
-                  Contact
-                </a>
-              </li>
+            {/* nav list desktop */}
+            <ul className="hidden md:flex space-x-10">
+              {navLinks.map(({ id, label }) => (
+                <li key={id}>
+                  <a
+                    href={`#${id}`}
+                    className="text-white hover:text-violetGradient"
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="md:hidden ">

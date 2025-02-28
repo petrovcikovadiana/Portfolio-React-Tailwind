@@ -34,9 +34,11 @@ const Skills = () => {
             </p>
             {/* list of skills */}
             <div className="flex max-w-[550px] items-center justify-center mx-auto gap-5 flex-wrap">
+              {/* Používá map() k dynamickému vykreslení ikon. */}
               {skills.map((skill) => (
                 <img
                   key={skill}
+                  // → Odkazuje na veřejnou složku /public/.
                   src={`${process.env.PUBLIC_URL}/assets/svg/${skill}.svg`}
                   alt={skill}
                   className="h-16"

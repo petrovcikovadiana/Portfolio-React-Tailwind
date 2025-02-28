@@ -47,7 +47,7 @@ const Aboutme = () => {
             </h2>
             {/* content */}
             <h3 className="h3 max-w-[455px] ">I am Diana,</h3>
-            <h3 className="text-md max-w-[455px] mb-10">
+            <div className="text-md max-w-[455px] mb-10">
               {" "}
               I am a junior front-end developer with a year of experience in
               creating dynamic and responsive websites. My preferred tools are
@@ -59,7 +59,7 @@ const Aboutme = () => {
                 continuously improving my skills in modern web development
                 technologies.
               </h3>
-            </h3>
+            </div>
             {/* button */}
             <a href="#work">
               <button class="btn btn-lg before:ease relative  overflow-hidden  bg-violetGradient text-white  before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700  hover:before:-translate-x-40">

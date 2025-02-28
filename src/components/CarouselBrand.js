@@ -1,6 +1,4 @@
 import React from "react";
-// import hitflora from "../assets/svg/hitflora-white-red.svg";
-// import netmate from "../assets/netmate-logo.png";
 
 function CarouselBrand() {
   return (
